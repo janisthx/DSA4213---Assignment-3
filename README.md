@@ -5,13 +5,13 @@ This project compares **full finetuning** and **parameter-efficient finetuning (
 ## Task
 Binary sentiment classification of movie reviews into **positive** or **negative**.
 
----
+--
 
 ## Dataset
 
 - **IMDb**: 50,000 labeled movie reviews (25k train / 25k test)
 
----
+--
 
 ## Models
 
@@ -22,7 +22,7 @@ Binary sentiment classification of movie reviews into **positive** or **negative
 
 Base model: `distilbert-base-uncased`
 
----
+--
 
 ## Training Setup
 
@@ -33,7 +33,7 @@ Base model: `distilbert-base-uncased`
 - **Loss**: CrossEntropyLoss  
 - **Evaluation**: Accuracy, Precision, Recall, F1  
 
----
+--
 
 ## Results
 
@@ -42,14 +42,13 @@ Base model: `distilbert-base-uncased`
 | Full Finetuning  | 90.62%        | 0.91     | ~1300 min  |
 | LoRA             | 89.13%        | 0.89     | ~750 min   |
 
----
+--
 
 ## Files
 
 | File              | Description                              |
 |-------------------|------------------------------------------|
 | `main.ipynb`      | Full training notebook                    |
-| `report.md`       | 6-page report (also available as PDF)     |
 | `logs.txt`        | Raw output of training and evaluation     |
 | `requirements.txt`| Python package dependencies               |
 | `utils.py`        | Helper functions for data preprocessing   |
