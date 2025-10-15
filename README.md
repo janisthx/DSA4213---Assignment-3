@@ -1,6 +1,6 @@
 # IMDb Sentiment Classification with Full Finetuning vs LoRA
 
-This project compares **full finetuning** and **parameter-efficient finetuning (LoRA)** using the `distilbert-base-uncased` model on the [IMDb movie review dataset](https://huggingface.co/datasets/imdb).
+This project compares **full finetuning** and **parameter-efficient finetuning (LoRA)** using the `distilbert-base-uncased` model on the IMDb moview review dataset.(https://huggingface.co/datasets/imdb).
 
 ## Task
 Binary sentiment classification of movie reviews into **positive** or **negative**.
