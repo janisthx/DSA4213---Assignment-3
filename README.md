@@ -47,3 +47,11 @@ Base model: `distilbert-base-uncased`
 | `logs.txt`        | Raw output of training and evaluation     |
 | `requirements.txt`| Python package dependencies               |
 | `utils.py`        | Helper functions for data preprocessing   |
+
+## Environment Setup
+
+To recreate the environment used for this project, run:
+
+```bash
+pip install -r requirements.txt
+
